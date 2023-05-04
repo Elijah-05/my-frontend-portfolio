@@ -28,7 +28,7 @@ export default function Contact() {
     
     return(
         <section id="contact" className="scroll-mt-20">
-            <div className="max-w-5xl mx-auto w-11/12">
+            <div className="max-w-5xl mx-auto w-11/12 ">
                 <h1 className="header-text mb-5 text-center">Contact me</h1>
 
                 <div className="Address Info my-5">
@@ -52,9 +52,11 @@ export default function Contact() {
                         title="map">
                         </iframe>
                     </div>
+
                     <div id="form" className="w-full mt-5 md:mt-0 md:w-[50%]">
                         <h2 className="text-center text-lg">Email Me</h2>
-                        <form action="" netlify name="contact" method="POST" onSubmit={handleSubmit}>
+
+                        <form action="" netlify="true" name="contact" method="POST" onSubmit={handleSubmit}>
                             <input className="block bg-gray-200 indent-4 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm focus:outline-primaryColor placeholder:text-gray-400  sm:text-sm sm:leading-6 my-2" type="text" name="name" placeholder="Name" onChange={(e) => setName(e.target.value)} required />
 
                             <input className="block bg-gray-200 indent-4 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm focus:outline-primaryColor placeholder:text-gray-400  sm:text-sm sm:leading-6 my-2" type="email" name="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />

@@ -6,9 +6,20 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(251, 251, 251);
 }
 
 @layer utilities {
+
+    .night {
+        background-color: rgb(22, 22, 22);
+        color: white
+    }
+
+    .fa-sun {
+        color: #FAAE37;
+    }
+
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div::after]:translate-y-0 [&>div::after]:rotate-45 [&>div]:bg-transparent [&>div]:-rotate-180
     }

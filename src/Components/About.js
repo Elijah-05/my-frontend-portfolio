@@ -3,8 +3,8 @@ function About() {
 
     return(
         <section id="about" className="scroll-mt-20">
-            <div className="max-w-5xl mx-auto text-center w-11/12">
-                <h1 className="header-text mb-5 flex items-center justify-center">About me <i className="fa-solid fa-user-tie sm:hidden text-primaryColor text-xl ml-2 mb-[2px]"></i></h1>
+            <div className="max-w-5xl mx-auto text-center w-11/12 ">
+                <h1 className="header-text mb-5 flex items-center justify-center ">About me <i className="fa-solid fa-user-tie sm:hidden text-primaryColor text-xl ml-2 mb-[2px]"></i></h1>
                 <div className="sm:flex items-center ">
                     <div className="">
                         <i className="fa-solid fa-user-tie sm:text-8xl text-primaryColor sm:mr-12 hidden sm:block"></i>

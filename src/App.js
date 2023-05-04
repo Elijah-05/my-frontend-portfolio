@@ -10,7 +10,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <main>
+    <main className="min-h-screen">
       <Nav />
       <Header />
       <About />

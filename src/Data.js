@@ -1,4 +1,5 @@
 import randomQuote from './images/project-random-quote.png'
+import groceryList from './images/project-my-grocery-list.png'
 import countdown from './images/project-countdown.png'
 import portfolio from './images/project-personal-portfolio2.png'
 import graphic from './images/project-graphic-designs.png'
@@ -53,6 +54,13 @@ export const projectData = [
         desc: 'Generate random quotes from API and also show with random colors',
         tech: ['React', 'API', 'CSS'],
         link: 'https://codepen.io/Elijah-05/full/eYLGypb'
+    },
+    {
+        name: 'My Grocery list',
+        image: groceryList,
+        desc: 'Countdown timer project with an alarm sound. JS algorithm',
+        tech: ['React', 'JS', ''],
+        link: 'https://elijah-05.github.io/my-grocery-list-app/'
     },
     {
         name: '25 + 5 Countdown',
