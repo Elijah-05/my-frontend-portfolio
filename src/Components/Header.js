@@ -33,7 +33,7 @@ function App() {
           ]}
           >
           </Typical>
-          <span className="sm:hidden">Elijah Abebe</span>
+          <span className="sm:hidden">Elyas Abebe</span>
           </h1>
         </div>
         <div className="sm:hidden absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">

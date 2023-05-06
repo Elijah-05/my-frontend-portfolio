@@ -11,9 +11,9 @@ export default function Projects() {
                     {projectData.map(data => 
                     <a href={`${data.link}`} key={data.name} target="_blank" rel="noopener noreferrer">
                         <div className="project-container border relative bg-gray-200 m-3 overflow-hidden flex justify-end rounded-xl w-[90%] max-w-[350px] min-h-[200px] xl:w-[100%] md:max-w-[300px] sm:max-w-[300px] sm:w-[100%] mx-auto bg-contain hover:scale-105 duration-300 shadow-lg hover:shadow-xl" style={{backgroundImage: `url(${data.image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-                            <div className="project-side-notes bg-primaryColor w-1/2 p-2 pt-6 pb-4 flex flex-col absolute right-0 h-full justify-between text-left rounded-r-xl duration-500 ">
-                                <h3 className="text  opacity-100 font-medium text-md leading-5 sm:mb-1">{data.name}</h3>
-                                <p className="text opacity-100 font-light sm:text-sm leading-5 sm:leading-4 mb-1">{data.desc}</p>
+                            <div className="project-side-notes bg-primaryColor w-1/2 p-2 pt-4 sm:pt-8 pb-4  absolute right-0 h-full text-left rounded-r-xl duration-500 ">
+                                <h3 className="text opacity-100 font-medium text-md leading-5 mb-3 sm:mb-3">{data.name}</h3>
+                                <p className="text opacity-100 text-gray-200 font-light text-sm leading-4 sm:leading-4 mb-1">{data.desc}</p>
                                 {/* <div className="technologies">
                                     <div className="text-right mr-2"></div>
                                 </div> */}
