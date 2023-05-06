@@ -95,7 +95,7 @@ export const testimonialData = [
         avatar: ahmed
     },
     {
-        name: "Samuael Adane",
+        name: "Samuael Adnew",
         profession: 'Web Developer',
         message: 'Well designed, and attractive UI/UX. I like the animation, the google map, structure, especially the Brand color choise.',
         avatar: samuel
