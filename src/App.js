@@ -18,7 +18,9 @@ function App() {
       <Projects />
       <Testimony />
       <Contact />
-      <Footer />
+      <Footer 
+        author='Elyas Abebe'
+      />
     </main>
   );
 }

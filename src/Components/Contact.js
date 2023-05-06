@@ -34,15 +34,15 @@ export default function Contact() {
                 <div className="Address Info my-5">
                     <div className="phones flex items-center">
                         <i className="fa-solid fa-square-phone text-primaryColor mr-2 text-2xl"></i>
-                        <a href="tel:+251932945417" className=" font-medium text-lg">+251-932-94-5417</a>
+                        <a href="tel:+251932945417" className=" font-medium text-lg hover:scale-105 hover:text-primaryColor origin-left duration-100">+251-932-94-5417</a>
                     </div>
                     <div className="phones flex items-center">
                         <i className="fa-solid fa-square-phone text-primaryColor mr-2 text-2xl invisible"></i>
-                        <a href="tel:+251930819898" className=" font-medium  text-lg">+251-930-81-9898</a>
+                        <a href="tel:+251930819898" className=" font-medium  text-lg hover:scale-105 hover:text-primaryColor origin-left duration-100">+251-930-81-9898</a>
                     </div>
                     <div className="Email flex items-center">
                         <i className="fa-solid fa-square-envelope text-primaryColor mr-2 text-2xl"></i>
-                        <a href="mailto: ellaab804@gmail.com" className="font-normal">ellaab804@gmail.com</a>
+                        <a href="mailto: ellaab804@gmail.com" className="font-normal hover:scale-105 hover:text-primaryColor origin-left duration-100">ellaab804@gmail.com</a>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row w-full">

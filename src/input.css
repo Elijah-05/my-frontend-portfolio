@@ -24,16 +24,7 @@ body {
         @apply [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div::after]:translate-y-0 [&>div::after]:rotate-45 [&>div]:bg-transparent [&>div]:-rotate-180
     }
 
-    @media screen and (max-width: 640px) {
-        .responsive-nav {
-            @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500
-        }
-        #banner {
-            
-            background-image: linear-gradient(180deg, rgba(3, 99, 99, 0.995), rgba(3, 73, 69, 0.522));
-        }
-    }
-
+    
     .header-text {
         @apply text-2xl sm:text-3xl
     }
@@ -54,7 +45,28 @@ body {
         margin-bottom: 40px
     }
 
+    .project-container:hover .project-side-notes {
+        right: -150px;
+    }
+    .project-container:hover .text {
+        opacity: 0;
+        transition: 0.5s ease-in-out;
+    }
     .project-side-notes {
         color: white;
     }
+
+    @media screen and (max-width: 640px) {
+        .responsive-nav {
+            @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500
+        }
+        #banner {
+            
+            background-image: linear-gradient(180deg, rgba(3, 99, 99, 0.995), rgba(3, 73, 69, 0.522));
+        }
+        .project-container:hover .project-side-notes {
+            right: -190px;
+        }
+    }
+
 }

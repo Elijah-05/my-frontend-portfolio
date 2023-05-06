@@ -3,6 +3,8 @@ import groceryList from './images/project-my-grocery-list.png'
 import countdown from './images/project-countdown.png'
 import portfolio from './images/project-personal-portfolio2.png'
 import graphic from './images/project-graphic-designs.png'
+import ahmed from './images/ahmed-profile.jpg'
+import samuel from './images/sami-profile.jpg'
 
 
 export const texts = {
@@ -51,7 +53,7 @@ export const projectData = [
     {
         name: 'Random Quote',
         image: randomQuote,
-        desc: 'Generate random quotes from API and also show with random colors',
+        desc: 'Generate random quotes from API with random colors',
         tech: ['React', 'API', 'CSS'],
         link: 'https://codepen.io/Elijah-05/full/eYLGypb'
     },
@@ -89,12 +91,14 @@ export const testimonialData = [
     {
         name: "Ahmed Mohamed",
         profession: 'Backend Developer',
-        message: 'Elijah is creative frontend programmer. He often communicates well with Backend developers. I recommend to anyone who needs dynamic website.',
+        message: 'Elyas is creative frontend developer. He often communicates well with the Backend developers, and takes fedback as an improvment.',
+        avatar: ahmed
     },
     {
-        name: "Samuel Teklay",
-        profession: 'Project Manager',
-        message: 'From the start of the project, through to completion, Elijah supported us and exceeded our expectations in every way. ',
+        name: "Samuael Adane",
+        profession: 'Web Developer',
+        message: 'Well designed, and attractive UI/UX. I like the animation, the google map, structure, especially the Brand color choise.',
+        avatar: samuel
     },
 
 ]

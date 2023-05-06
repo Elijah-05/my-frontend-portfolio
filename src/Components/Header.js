@@ -16,7 +16,7 @@ function App() {
           <Typical className="hidden sm:block text-primaryColor" 
           loop={Infinity}
           steps={[
-            'Elijah Abebe',
+            'Elyas Abebe',
             1000,
             '',
             100,
