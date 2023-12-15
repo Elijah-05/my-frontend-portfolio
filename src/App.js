@@ -1,12 +1,13 @@
 import React from "react";
 import Nav from "./Components/Nav";
-import Header from './Components/Header';
+import Header from "./Components/Header";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Testimony from "./Components/Testimony";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import "./index.css";
 
 function App() {
   return (
@@ -18,9 +19,7 @@ function App() {
       <Projects />
       <Testimony />
       <Contact />
-      <Footer 
-        author='Elyas Abebe'
-      />
+      <Footer author="Elyas Abebe" />
     </main>
   );
 }

@@ -17,23 +17,20 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div
-                className="project-container border relative bg-gray-200 m-3 overflow-hidden flex justify-end rounded-xl w-[90%] max-w-[350px] min-h-[200px] xl:w-[100%] md:max-w-[300px] sm:max-w-[300px] sm:w-[100%] mx-auto bg-contain hover:scale-105 duration-300 shadow-lg hover:shadow-xl"
+                className="project-container group border relative bg-gray-200 m-3 overflow-hidden flex justify-end rounded-xl w-[90%] max-w-[350px] min-h-[200px] xl:w-[100%] md:max-w-[300px] sm:max-w-[300px] sm:w-[100%] mx-auto bg-contain hover:scale-105 duration-300 shadow-[0_4px_12px_2px_rgba(0,0,0,0.3)] hover:shadow-xl"
                 style={{
                   backgroundImage: `url(${data.image})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                 }}
               >
-                <div className="project-side-notes bg-primaryColor w-1/2 p-2 pt-4 sm:pt-8 pb-4  absolute right-0 h-full text-left rounded-r-xl duration-500 ">
-                  <h3 className="text opacity-100 font-medium text-md leading-5 mb-3 sm:mb-3">
+                <div className="project-side-notes w-full bottom-0 p-2 pt-4 sm:pt-8 group-hover:translate-y-12 group-hover:opacity-0 bg-gradient-to-t from-10% to-100% from-[rgba(0,0,0,0.9)] to-[rgba(0,0,0,0)] absolute text-white text-left duration-700 ">
+                  <h3 className="text opacity-100 font-medium text-sm leading-5 ">
                     {data.name}
                   </h3>
-                  <p className="text opacity-100 text-gray-200 font-light text-sm leading-4 sm:leading-4 mb-1">
+                  <p className="text opacity-100 text-gray-300 font-light text-xs leading-4 sm:leading-4">
                     {data.desc}
                   </p>
-                  {/* <div className="technologies">
-                                    <div className="text-right mr-2"></div>
-                                </div> */}
                 </div>
               </div>
             </a>
