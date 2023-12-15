@@ -1,5 +1,9 @@
 import randomQuote from "./images/project-random-quote.png";
+import addisSystems from "./images/addisSystems.jpg";
 import groceryList from "./images/project-my-grocery-list.png";
+import netflix from "./images/netflix-clone.jpg";
+import evangadi from "./images/evangadi-forum.jpg";
+import amazon from "./images/amazon-clone.jpg";
 import countdown from "./images/project-countdown.png";
 import graphic from "./images/project-graphic-designs.png";
 import saasImage from "./images/saas-company-template.png";
@@ -51,11 +55,39 @@ export const SkillsData = [
 
 export const projectData = [
   {
-    name: "Random Quote",
-    image: randomQuote,
-    desc: "Generate random quotes from API with random colors",
-    tech: ["React", "API", "CSS"],
-    link: "https://codepen.io/Elijah-05/full/eYLGypb",
+    name: "AddisSystem Website",
+    image: addisSystems,
+    desc: "Developed from scratch figma design to code implementation.",
+    tech: ["React", "JS", ""],
+    link: "https://addissystems.et",
+  },
+  {
+    name: "Saas Website Template",
+    image: saasImage,
+    desc: "Saas company website template challenge from internship company",
+    tech: ["React", "JS", ""],
+    link: "https://addis-tech.netlify.app/",
+  },
+  {
+    name: "Netflix-Clone",
+    image: netflix,
+    desc: "front-end project with api fetch IMDB movie data",
+    tech: ["React", "JS", ""],
+    link: "https://ellay-netflix-clone.netlify.app/",
+  },
+  {
+    name: "Amazon-Clone",
+    image: amazon,
+    desc: "Amazon Clone",
+    tech: ["React", "JS", ""],
+    link: "https://ella-amazon-clone.netlify.app/",
+  },
+  {
+    name: "Evangadi Forum",
+    image: evangadi,
+    desc: "Evandadi forum, full stack project",
+    tech: ["React", "JS", ""],
+    link: "https://ella-evangadi-forum.netlify.app/",
   },
   {
     name: "My Grocery list",
@@ -65,11 +97,11 @@ export const projectData = [
     link: "https://elijah-05.github.io/my-grocery-list-app/",
   },
   {
-    name: "Saas Website Template",
-    image: saasImage,
-    desc: "Saas company website template challenge from internship company",
-    tech: ["React", "JS", ""],
-    link: "https://addis-tech.netlify.app/",
+    name: "Random Quote",
+    image: randomQuote,
+    desc: "Generate random quotes from API with random colors",
+    tech: ["React", "API", "CSS"],
+    link: "https://codepen.io/Elijah-05/full/eYLGypb",
   },
   {
     name: "25 + 5 Countdown",

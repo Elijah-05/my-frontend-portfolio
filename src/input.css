@@ -1,72 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(251, 251, 251);
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(251, 251, 251);
 }
 
 @layer utilities {
+  .night {
+    background-color: rgb(22, 22, 22);
+    color: white;
+  }
 
-    .night {
-        background-color: rgb(22, 22, 22);
-        color: white
-    }
+  .fa-sun {
+    color: #faae37;
+  }
 
-    .fa-sun {
-        color: #FAAE37;
-    }
+  .toggle-btn {
+    @apply [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div::after]:translate-y-0 [&>div::after]:rotate-45 [&>div]:bg-transparent [&>div]:-rotate-180;
+  }
 
-    .toggle-btn {
-        @apply [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div::after]:translate-y-0 [&>div::after]:rotate-45 [&>div]:bg-transparent [&>div]:-rotate-180
-    }
+  .header-text {
+    @apply text-2xl sm:text-3xl;
+  }
 
-    
-    .header-text {
-        @apply text-2xl sm:text-3xl
-    }
+  .nav-border:hover .bB {
+    width: 100%;
+  }
 
-    .nav-border:hover .bB {
-        width: 100%;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
+  html {
+    scroll-behavior: smooth;
+  }
 
-    .banner {
-        background-image: linear-gradient(90deg, rgba(0, 20, 20, 0.995), rgba(5, 59, 55, 0.522));
-    }
+  .banner {
+    background-image: linear-gradient(
+      90deg,
+      rgba(0, 20, 20, 0.995),
+      rgba(5, 59, 55, 0.522)
+    );
+  }
 
-    section {
-        margin-bottom: 40px
-    }
+  section {
+    margin-bottom: 40px;
+  }
 
-    .project-container:hover .project-side-notes {
-        right: -150px;
-    }
-    .project-container:hover .text {
-        opacity: 0;
-        transition: 0.5s ease-in-out;
-    }
-    .project-side-notes {
-        color: white;
-    }
+  /* .project-container:hover .project-side-notes {
+    right: -150px;
+  }
+  .project-container:hover .text {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  .project-side-notes {
+    color: white;
+  } */
 
-    @media screen and (max-width: 640px) {
-        .responsive-nav {
-            @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500
-        }
-        #banner {
-            
-            background-image: linear-gradient(180deg, rgba(3, 99, 99, 0.995), rgba(3, 73, 69, 0.522));
-        }
-        .project-container:hover .project-side-notes {
-            right: -190px;
-        }
+  @media screen and (max-width: 640px) {
+    .responsive-nav {
+      @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500;
     }
-
+    #banner {
+      background-image: linear-gradient(
+        180deg,
+        rgba(3, 99, 99, 0.995),
+        rgba(3, 73, 69, 0.522)
+      );
+    }
+    /* .project-container:hover .project-side-notes {
+      right: -190px;
+    } */
+  }
 }
