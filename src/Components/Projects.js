@@ -1,4 +1,5 @@
 import { projectData } from "../Data";
+import { FaEye } from "react-icons/fa";
 
 export default function Projects() {
   return (
@@ -24,7 +25,11 @@ export default function Projects() {
                   backgroundSize: "cover",
                 }}
               >
-                <div className="project-side-notes w-full bottom-0 p-2 pt-4 sm:pt-8 group-hover:translate-y-12 group-hover:opacity-0 bg-gradient-to-t from-10% to-100% from-[rgba(0,0,0,0.9)] to-[rgba(0,0,0,0)] absolute text-white text-left duration-700 ">
+                <div className=" absolute w-full h-full bg-black opacity-0 group-hover:opacity-70 duration-500" />
+                <div className=" absolute left-1/2 top-1/2 -translate-x-1/2 group-hover:-translate-y-2/3 text-white text-5xl opacity-0 group-hover:opacity-80 duration-1000">
+                  <FaEye />
+                </div>
+                <div className="project-side-notes w-full bottom-0 p-2 pt-4 sm:pt-8 group-hover:translate-y-0 translate-y-12 group-hover:opacity-100 opacity-0 bg-gradient-to-t from-10% to-100% from-[rgba(0,0,0,0.9)] to-[rgba(0,0,0,0)] absolute text-white text-left duration-700 ">
                   <h3 className="text opacity-100 font-medium text-sm leading-5 ">
                     {data.name}
                   </h3>

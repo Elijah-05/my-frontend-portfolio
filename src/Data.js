@@ -78,14 +78,14 @@ export const projectData = [
   {
     name: "Amazon-Clone",
     image: amazon,
-    desc: "Amazon Clone",
+    desc: "Full-stack project with firebase backend integration",
     tech: ["React", "JS", ""],
     link: "https://ella-amazon-clone.netlify.app/",
   },
   {
     name: "Evangadi Forum",
     image: evangadi,
-    desc: "Evandadi forum, full stack project",
+    desc: "Evandadi forum, full stack project node js, mySql database",
     tech: ["React", "JS", ""],
     link: "https://ella-evangadi-forum.netlify.app/",
   },
@@ -111,9 +111,9 @@ export const projectData = [
     link: "https://codepen.io/Elijah-05/full/KKxxrWX",
   },
   {
-    name: "Graphic Designs",
+    name: "Graphics Portfolio",
     image: graphic,
-    desc: "Graphic Design works for different companies",
+    desc: "My graphic design portfolio here in behance",
     tech: "",
     link: "https://www.behance.net/Elyas_Abebe",
   },
